@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"
+      integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      .rounded-img {
+        width: 55%;
+        border-radius: 50%;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+        padding: 0.4em;
+        margin-bottom: 1em;
+      }
+      .btn-group-custom {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        margin-top: 15px;
+      }
+    </style>
+    <title>Программисты</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand P-0" href="/">
+          <img src="Home.png" alt="Home" width="110" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Отзывы о нас</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container text-center my-5">
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <img class="rounded-img" src="img2.jpg" alt="Филоненко Андрей" />
+          <h3>Филоненко Андрей</h3>
+          <p>
+            Я Филоненко Андрей занимаюсь созданием сайтов, а также разработкой
+            игр!
+          </p>
+          <div class="btn-group-custom">
+            <a
+              href="https://web.telegram.org/a/#-1001555256364"
+              target="_blank"
+              class="btn btn-dark"
+            >
+              Мой Telegram
+            </a>
+            <a
+              href="https://vk.com/id941100152"
+              target="_blank"
+              class="btn btn-secondary"
+            >
+              Мой VK
+            </a>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+          <img class="rounded-img" src="paren1a.jpg" alt="Иванов Иван" />
+          <h3>Иванов Иван</h3>
+          <p>
+            Я Иванов Иван, специализируюсь на backend-разработке и базах данных!
+          </p>
+          <div class="btn-group-custom">
+            <a href="#" target="_blank" class="btn btn-dark"> Мой Telegram </a>
+            <a href="#" target="_blank" class="btn btn-secondary"> Мой VK </a>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+          <img
+            class="rounded-img"
+            src="6qHDfm5uOBQ.jpg"
+            alt="Петров Александр"
+          />
+          <h3>Петров Александр</h3>
+          <p>Я Петров Александр, занимаюсь дизайном и frontend-разработкой!</p>
+          <div class="btn-group-custom">
+            <a href="#" target="_blank" class="btn btn-dark"> Мой Telegram </a>
+            <a href="#" target="_blank" class="btn btn-secondary"> Мой VK </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
